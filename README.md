@@ -1,1 +1,1 @@
-# PersonalPhotoOrganiser
+# MagicLens
