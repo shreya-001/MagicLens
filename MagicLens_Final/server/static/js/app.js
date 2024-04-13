@@ -18,7 +18,7 @@ function init() {
     dz.on("complete", function (file) {
         let imageData = file.dataURL;
         
-        var url = "http://0.0.0.0:10000/classify_image";
+        var url = "https://magiclens.onrender.com/classify_image";
 
         $.post(url, {
             image_data: file.dataURL
