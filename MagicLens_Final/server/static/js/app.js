@@ -58,7 +58,8 @@ function init() {
                 $("#error").show();
                 return;
             }
-            let players = ["Janakan","lionel_messi", "Shreya",  "Neema", "Aravinda"];
+            // let players = ["Janakan","lionel_messi", "Shreya",  "Neema", "Aravinda"];
+            let players = ["lionel_messi", "Shreya","Janakan",  "Neema", "Aravinda"];
             
             let match = null;
             let bestScore = -1;
