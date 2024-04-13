@@ -14,7 +14,7 @@ def home():
 @app.route('/classify_image', methods=['GET', 'POST'])
 def classify_image():
     image_data = request.form['image_data']
-
+    util.load_saved_artifacts()
     response = jsonify(util.classify_image(image_data))
 
     response.headers.add('Access-Control-Allow-Origin', '0.0.0.0')
