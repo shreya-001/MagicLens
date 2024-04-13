@@ -13,3 +13,17 @@ communication with the user interface. The UI, developed using HTML, CSS, JavaSc
 and JQuery, offers an intuitive and visually appealing platform for users to organize their
 images effortlessly according to their preferences. MagicLens is a comprehensive
 solution combining cutting-edge technologies to provide a user-centric and efficient.
+
+# Project Objectives 
+The primary objectives of the 'Magic Lens' project are as follows:
+* To develop a facial recognition system capable of accurately identifying individuals in photos.
+* To implement machine learning algorithms, specifically Support Vector Machines (SVM), for facial recognition tasks.
+* To create a user-friendly interface for seamless interaction with the facial recognition system.
+
+# Scope
+
+The scope of the 'Magic Lens' project includes:
+* Research and development of facial recognition algorithms, focusing on SVM models.
+* Integration of OpenCV, PyWavelets, and scikit-learn for image processing and machine learning.
+* Development of a web-based front-end interface using HTML, JavaScript, and jQuery.
+* Implementation of Flask for backend server logic and interaction with machine learning models.
