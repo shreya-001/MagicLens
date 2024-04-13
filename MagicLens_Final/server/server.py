@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS, cross_origin
 import util
 
 app = Flask(__name__)
+CORS(app, supports_credentials=True) 
 
 # Default Route
 @app.route("/")
@@ -15,7 +17,7 @@ def classify_image():
 
     response = jsonify(util.classify_image(image_data))
 
-    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Origin', 'localhost')
 
     return response
 
