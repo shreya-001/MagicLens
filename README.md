@@ -27,3 +27,5 @@ The scope of the 'Magic Lens' project includes:
 * Integration of OpenCV, PyWavelets, and scikit-learn for image processing and machine learning.
 * Development of a web-based front-end interface using HTML, JavaScript, and jQuery.
 * Implementation of Flask for backend server logic and interaction with machine learning models.
+
+DEPLOYED URL - https://magiclens.onrender.com
